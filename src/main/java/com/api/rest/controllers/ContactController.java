@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.1.14:4200"})
+@CrossOrigin(origins = {"https://course-work-frontend-api.herokuapp.com"})
 @RestController
 public class ContactController {
 
